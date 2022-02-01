@@ -116,18 +116,6 @@ namespace CalculatorConsoleApp
                 case "%":
                     result += basic.ModuleValue(firstNum, secondNum);
                     break;
-                    //case "sq":
-                    //    basic.SquareValue(firstNum, secondNum);
-                    //    break;
-                    //case "sqrt":
-                    //    basic.SquareRootValue(firstNum, secondNum);
-                    //    break;
-                    //case "cb":
-                    //    basic.CubeValue(firstNum, secondNum);
-                    //    break;
-                    //case "cbrt":
-                    //    basic.CubeRootValue(firstNum, secondNum);
-                    //    break;
             }
 
             return result;
